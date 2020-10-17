@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 function logger(req, res, next) {
-  console.log('---NEW REQUEST---');
+  console.log('---NEW REQUEST----');
   console.log(req.url);
   console.log(req.meth0d);
   next();
